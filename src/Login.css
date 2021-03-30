@@ -1,0 +1,98 @@
+.login{
+
+   background: linear-gradient(#FDAD57,#DE6177);
+   height:100vh;
+    width: 100vw;
+    text-align: center;
+    align-items: center;
+   
+}
+
+img{
+
+    width:400px;
+    height:300px;
+    object-fit: contain;
+    margin-bottom:10px;
+
+
+
+}
+
+
+.login__page{
+
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position:absolute;
+ 
+   top:15vh;
+   bottom:15vh;
+   left:30vw;
+   right:30vw;
+    
+   
+
+    height:70vh;
+
+    width: 40vw;
+    
+    align-items: center;
+    background-image:linear-gradient(to bottom,rgb(231, 231, 110),#F90749);
+   
+
+
+    
+
+
+}
+
+
+.login__button{
+
+    width:80%;
+    height:40px;
+    color:grey;
+    background-color:white;
+    outline: none;
+    border:none;
+
+}
+
+
+@media (max-width:900px)
+{
+
+    .login__page{
+
+        width:80vw;
+        left:10vw;
+        right:10vw;
+        
+    }
+
+    img{
+
+        width:200px;
+        height:200px;
+        object-fit: contain;
+        text-align: center;
+        margin-left:20px;
+    }
+
+   
+    
+}
+
+h3{
+    color:white;
+}
+
+.login__page > button{
+    color:white;
+
+    background-color:red;
+    margin-top:30px;
+}
+

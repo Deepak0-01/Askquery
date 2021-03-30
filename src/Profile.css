@@ -1,0 +1,70 @@
+.profile{
+height:70vh;
+width:57vw;
+background-color:#93A9FC;
+
+text-align:center;
+padding:10px;
+display:grid;
+border-radius:30px;
+justify-content: center;
+margin:auto;
+}
+
+.profile > img{
+
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:5px;
+  height:150px;
+  width:150px;
+  object-fit: contain;
+  border-radius:130px;
+
+ 
+
+
+
+     
+}
+
+.profile > h2{
+    margin-top:-40px;
+
+    color:white;
+}
+
+.profile >h3{
+    margin-top:-40px;
+
+    color:blue;
+}
+
+
+@media (max-width:900px)
+{
+    .profile{
+
+      margin-top:15vh;
+      width:80vw;
+    }
+
+    .profile > img{
+
+      margin-left:auto;
+      margin-right:auto;
+      margin-top:5px;
+      height:100px;
+      width:100px;
+      object-fit: contain;
+      border-radius:130px;
+    
+     
+    
+    
+    
+         
+    }
+
+    
+}

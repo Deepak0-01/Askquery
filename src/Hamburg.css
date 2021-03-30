@@ -1,0 +1,25 @@
+.hamburger{
+    position:absolute;
+    right:0px;
+    top:10px;
+
+    display:block;
+    color:white;
+
+    position:absolute;
+
+    right:20px;
+    width:200px;
+
+    top:15px;
+    z-index:1;
+}
+
+.line{
+
+    width:15px;
+    height:5px;
+    margin-bottom:8px;
+    color:white;
+    
+}
